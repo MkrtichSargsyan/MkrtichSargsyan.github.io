@@ -21,10 +21,32 @@ export default class SideDrawer extends Component {
         title: "Contact",
       },
     ],
+    social_itmes: [
+      {
+        icon: "fab fa-github fa-2x",
+        link: "Contact",
+      },
+      {
+        icon: "fab fa-twitter fa-2x",
+        link: "Contact",
+      },
+      {
+        icon: "fab fa-linkedin fa-2x",
+        link: "Contact",
+      },
+      {
+        icon: "fas fa-envelope fa-2x",
+        link: "Contact",
+      },
+      {
+        icon: "fas fa-file fa-2x",
+        link: "Contact",
+      },
+    ],
   };
 
   render() {
-    const { navigation_items } = this.state;
+    const { navigation_items, social_itmes } = this.state;
     return (
       <div className={styles.side_drawer}>
         <div className={styles.logo}>
@@ -39,16 +61,26 @@ export default class SideDrawer extends Component {
             {navigation_items.map((item) => (
               <li>
                 <a href="#">
-                  <img src={item.icon} alt=""/>
+                  <img src={item.icon} alt="" />
                   <span className={styles.title}>{item.title}</span>
                 </a>
               </li>
             ))}
           </ul>
         </div>
-        <div className={styles.social}>
-          social links
-        </div>
+        <ul className={styles.social}>
+          {social_itmes.map((item) => (
+            <li>
+              <a
+                href='#'
+                target="_blank"
+                data-original-title="Linkedin"
+              >
+                <i className={item.icon}></i>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     );
   }

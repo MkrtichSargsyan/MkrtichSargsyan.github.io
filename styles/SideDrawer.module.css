@@ -1,6 +1,7 @@
 .side_drawer {
   position: relative;
-  background-color: #151515;
+  /* background-color: #151515; */
+  background-color: #020308;
   height: 100vh;
   color: rgb(99 99 99);
   font-family: 'Source Sans Pro', sans-serif;
@@ -34,20 +35,16 @@
 
 /* navigation */
 
-.navigation{
-
-}
-
 .navigation ul{
-  list-style-type: none;
+  padding-top: 20px;
 }
 
 .navigation ul li{
-  padding: 20px 25px 20px 40px;
+  padding: 20px 40px 20px 40px;
 }
 
 .navigation ul li:hover{
-  background-color: rgb(17, 17, 17);
+  background-color: #09090a;
 }
 
 .navigation ul li:hover .title{
@@ -77,5 +74,24 @@
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.social a{
+    color: rgb(65, 72, 76);
+    transition: color 0.35s ease-in-out 0s;
+    text-decoration: none;
+}
+
+.social a:hover{
+  color: aliceblue;
+}
+
+.social a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

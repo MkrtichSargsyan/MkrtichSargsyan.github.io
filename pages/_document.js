@@ -14,6 +14,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap"
             rel="stylesheet"
           />
+          <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+          />
         </Head>
         <body>
           <Main />
