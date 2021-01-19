@@ -1,8 +1,11 @@
 .side_drawer {
-  position: relative;
-  /* background-color: #151515; */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
   background-color: #020308;
-  height: 100vh;
+  height: 100vh !important;
   color: rgb(99 99 99);
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -37,6 +40,7 @@
 
 .navigation ul{
   padding-top: 20px;
+  flex-grow: 1;
 }
 
 .navigation ul li{

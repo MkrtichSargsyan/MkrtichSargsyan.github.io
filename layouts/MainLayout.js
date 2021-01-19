@@ -1,14 +1,12 @@
 import React from "react";
+import Main from "../components/main_content/Main";
 import SideDrawer from "../components/SideSrawer/SideDrawer";
 
-function MainLayout(props) {
+function MainLayout() {
   return (
     <div>
       <SideDrawer />
-      {props.children}
-      <style jsx>{`
-        display: flex;
-      `}</style>
+      <Main />
     </div>
   );
 }
