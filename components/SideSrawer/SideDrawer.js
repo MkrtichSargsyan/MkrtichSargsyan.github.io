@@ -49,7 +49,7 @@ export default class SideDrawer extends Component {
   render() {
     const { navigation_items, social_itmes } = this.state;
     return (
-      <div
+      <aside
         className={
           this.props.active ? styles.side_drawer_open : styles.side_drawer_close
         }
@@ -85,7 +85,7 @@ export default class SideDrawer extends Component {
             </li>
           ))}
         </ul>
-      </div>
+      </aside>
     );
   }
 }

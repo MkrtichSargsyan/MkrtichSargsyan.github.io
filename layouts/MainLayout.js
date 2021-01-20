@@ -1,28 +1,11 @@
-// import React from "react";
-// import Main from "../components/main_content/Main";
-// import SideDrawer from "../components/SideSrawer/SideDrawer";
-
-// function MainLayout() {
-//   return (
-//     <div>
-//       <SideDrawer />
-//       <Main />
-//     </div>
-//   );
-// }
-
-// export default MainLayout;
-
-
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import Main from "../components/main_content/Main";
 import SideDrawer from "../components/SideSrawer/SideDrawer";
 
 export default class MainLayout extends Component {
-
-  state={
+  state = {
     active: true,
-  }
+  };
 
   toggleSidebar = (e) => {
     e.preventDefault();
@@ -34,9 +17,12 @@ export default class MainLayout extends Component {
   render() {
     return (
       <div>
-        <SideDrawer active={this.state.active} toggleSidebar={this.toggleSidebar}/>
-        <Main active={this.state.active}/>
+        <SideDrawer
+          active={this.state.active}
+          toggleSidebar={this.toggleSidebar}
+        />
+        <Main active={this.state.active} />
       </div>
-    )
+    );
   }
 }

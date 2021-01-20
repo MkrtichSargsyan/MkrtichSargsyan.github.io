@@ -8,11 +8,11 @@ import styles from "../../styles/Main.module.css";
 
 export default function Main(props) {
   return (
-    <div className={props.active ? styles.ml : styles.mr}>
+    <main className={props.active ? styles.ml : styles.mr}>
       <Showcase />
       <MyProjects />
       <AboutMe />
       <Contact />
-    </div>
+    </main>
   );
 }

@@ -1,0 +1,46 @@
+.projects{
+  background-color: #bf8f2f4f;
+  padding: 50px 80px;
+}
+
+.projects article{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.projects article p{
+  font-weight: 300;
+  line-height: 1.8em;
+  font-size: 17px;
+  color: #767777;
+}
+
+.projects .stack{
+  padding-bottom: 30px;
+}
+
+.projects article h2{
+  font-size: 48px;
+  color: hsla(0,0%,13%,1);
+}
+
+.projects article > div:first-child{
+  max-width: 50%;
+  min-height: 350px;
+}
+
+.projects .icons{
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.icons i:first-child{
+  margin-right: 50px;
+}

@@ -9,10 +9,12 @@
 .greeting{
   font-size: 52px;
   line-height: 1.5;
+  color: hsla(0,0%,13%,1);
 }
 
 .showcase p{
   font-size: 24px;
+  color: hsla(0,0%,13%,1);
   margin-bottom: 130px;
 }
 
@@ -27,7 +29,6 @@
 .hire_button {
   font-size: 24px;
   color: white;
-  border: 2px solid hsla(0,0%,13%,1);
   padding: 10px 20px;
   border-radius: 30px;
   display: inline-block;
