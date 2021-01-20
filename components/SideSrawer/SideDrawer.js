@@ -46,22 +46,15 @@ export default class SideDrawer extends Component {
     ],
   };
 
-  showSidebar = (e) => {
-    e.preventDefault();
-    this.setState({
-      active: !this.state.active,
-    });
-  };
-
   render() {
     const { navigation_items, social_itmes } = this.state;
     return (
       <div
         className={
-          this.state.active ? styles.side_drawer_open : styles.side_drawer_close
+          this.props.active ? styles.side_drawer_open : styles.side_drawer_close
         }
       >
-        <div className={styles.toggler} onClick={this.showSidebar}>
+        <div className={styles.toggler} onClick={this.props.toggleSidebar}>
           <i class="fas fa-bars fa-2x"></i>
         </div>
         <div className={styles.logo}>

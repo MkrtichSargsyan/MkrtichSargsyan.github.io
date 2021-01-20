@@ -8,7 +8,7 @@
   height: 100vh !important;
   color: rgb(99 99 99);
   font-family: 'Source Sans Pro', sans-serif;
-  max-width: 34%;
+  width: 310px;
   transition: 850ms;
 }
 

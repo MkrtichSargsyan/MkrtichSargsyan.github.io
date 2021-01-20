@@ -1,0 +1,11 @@
+.showcase{
+  height:100vh;
+  background-image:url(../public/bg.jpg);
+  text-align: center;
+}
+
+.container{
+  border: 1px solid black;
+  width: 200px;
+  height: 40px;
+}

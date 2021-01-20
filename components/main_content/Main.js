@@ -4,17 +4,16 @@ import MyProjects from "../main_content/MyProjects";
 import AboutMe from "../main_content/AboutMe";
 import Contact from "../main_content/Contact";
 
-export default function Main() {
+import styles from "../../styles/Main.module.css";
+
+export default function Main(props) {
+  console.log(props);
   return (
-    <div>
+    <div className={props.active ? styles.ml : styles.mr}>
       <Showcase />
       <MyProjects />
       <AboutMe />
       <Contact />
-
-      <style jsx>{`
-        margin-left: 20%;
-      `}</style>
     </div>
   );
 }
