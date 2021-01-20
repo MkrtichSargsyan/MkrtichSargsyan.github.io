@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function MyProjects() {
   return (
-    <div>
+    <section>
       My projects
-    </div>
+    </section>
   )
 }

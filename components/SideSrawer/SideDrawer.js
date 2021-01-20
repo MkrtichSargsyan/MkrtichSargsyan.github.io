@@ -3,6 +3,7 @@ import styles from "../../styles/SideDrawer.module.css";
 
 export default class SideDrawer extends Component {
   state = {
+    active: true,
     navigation_items: [
       {
         icon: "icons/home.png",
@@ -45,10 +46,24 @@ export default class SideDrawer extends Component {
     ],
   };
 
+  showSidebar = (e) => {
+    e.preventDefault();
+    this.setState({
+      active: !this.state.active,
+    });
+  };
+
   render() {
     const { navigation_items, social_itmes } = this.state;
     return (
-      <div className={styles.side_drawer}>
+      <div
+        className={
+          this.state.active ? styles.side_drawer_open : styles.side_drawer_close
+        }
+      >
+        <div className={styles.toggler} onClick={this.showSidebar}>
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
         <div className={styles.logo}>
           <img src="me.JPG" alt="me" />
           <div>
@@ -71,11 +86,7 @@ export default class SideDrawer extends Component {
         <ul className={styles.social}>
           {social_itmes.map((item) => (
             <li>
-              <a
-                href='#'
-                target="_blank"
-                data-original-title="Linkedin"
-              >
+              <a href="#" target="_blank" data-original-title="Linkedin">
                 <i className={item.icon}></i>
               </a>
             </li>

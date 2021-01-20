@@ -1,4 +1,4 @@
-.side_drawer {
+.side_drawer_open {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -8,6 +8,28 @@
   height: 100vh !important;
   color: rgb(99 99 99);
   font-family: 'Source Sans Pro', sans-serif;
+  max-width: 34%;
+  transition: 850ms;
+}
+
+.side_drawer_close {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  background-color: #020308;
+  height: 100vh !important;
+  color: rgb(99 99 99);
+  font-family: 'Source Sans Pro', sans-serif;
+  transform: translateX(-100%);
+  transition: 850ms;
+}
+
+.toggler{
+  position: absolute;
+  top: 30px;
+  right: -45px;
 }
 
 .logo{
@@ -38,9 +60,12 @@
 
 /* navigation */
 
+.navigation{
+  flex-grow: 1;
+}
+
 .navigation ul{
   padding-top: 20px;
-  flex-grow: 1;
 }
 
 .navigation ul li{
@@ -74,7 +99,6 @@
 /* social */
 
 .social{
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
