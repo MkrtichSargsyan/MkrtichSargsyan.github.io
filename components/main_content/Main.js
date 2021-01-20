@@ -7,7 +7,6 @@ import Contact from "../main_content/Contact";
 import styles from "../../styles/Main.module.css";
 
 export default function Main(props) {
-  console.log(props);
   return (
     <div className={props.active ? styles.ml : styles.mr}>
       <Showcase />

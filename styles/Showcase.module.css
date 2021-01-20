@@ -1,11 +1,61 @@
 .showcase{
-  height:100vh;
-  background-image:url(../public/bg.jpg);
+  background-image:url(../public/mm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
+  padding: 80px 0 300px;
 }
 
-.container{
-  border: 1px solid black;
-  width: 200px;
-  height: 40px;
+.greeting{
+  font-size: 52px;
+  line-height: 1.5;
+}
+
+.showcase p{
+  font-size: 24px;
+  margin-bottom: 130px;
+}
+
+.showcase i{
+  color: white;
+  font-size: 24px;
+}
+.white{
+  color: white;
+}
+
+.hire_button {
+  font-size: 24px;
+  color: white;
+  border: 2px solid hsla(0,0%,13%,1);
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  margin-top: 30px;
+
+  animation-name: bgcolor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bgcolor {
+  25% {
+    background: white;
+    color:  hsla(0,0%,13%,1);
+  }
+
+  50% {
+    background:  hsla(0,0%,13%,1);
+    color: white;
+  }
+
+  75% {
+    background: white;
+    color:  hsla(0,0%,13%,1);
+  }
+
+  100% {
+    background:  hsla(0,0%,13%,1);
+    color: white;
+  }
 }

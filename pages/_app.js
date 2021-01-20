@@ -8,6 +8,10 @@ export default function MyApp({ Component, pageProps }) {
             margin: 0;
             padding: 0;
           }
+          .container{
+            margin:0 auto;
+            padding:50px;
+          }
           
           html,
           body,
