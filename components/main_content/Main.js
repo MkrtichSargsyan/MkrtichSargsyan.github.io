@@ -5,6 +5,7 @@ import AboutMe from "../main_content/AboutMe";
 import Contact from "../main_content/Contact";
 
 import styles from "../../styles/Main.module.css";
+import Footer from "./Footer";
 
 export default function Main(props) {
   return (
@@ -13,6 +14,7 @@ export default function Main(props) {
       <MyProjects />
       <AboutMe />
       <Contact />
+      <Footer/>
     </main>
   );
 }
