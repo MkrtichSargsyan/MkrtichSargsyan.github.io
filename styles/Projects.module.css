@@ -1,9 +1,10 @@
-.projects{
-  background-color: #bf8f2f4f;
-  padding: 50px 80px;
+.projects {
+  background-color: #cec7b94f;
+  padding: 0 80px;
 }
 
-.projects article{
+
+.projects article {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -14,33 +15,33 @@
   margin-bottom: 50px;
 }
 
-.projects article p{
+.projects article p {
   font-weight: 300;
   line-height: 1.8em;
   font-size: 17px;
   color: #767777;
 }
 
-.projects .stack{
+.projects .stack {
   padding-bottom: 30px;
 }
 
-.projects article h2{
+.projects article h2 {
   font-size: 48px;
-  color: hsla(0,0%,13%,1);
+  color: hsla(0, 0%, 13%, 1);
 }
 
-.projects article > div:first-child{
+.projects article > div:first-child {
   max-width: 50%;
   min-height: 350px;
 }
 
-.projects .icons{
+.projects .icons {
   display: flex;
   margin-top: 60px;
   justify-content: center;
 }
 
-.icons i:first-child{
+.icons i:first-child {
   margin-right: 50px;
 }

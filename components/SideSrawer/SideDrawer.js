@@ -22,7 +22,7 @@ export default class SideDrawer extends Component {
         title: "Contact",
       },
     ],
-    social_itmes: [
+    social_items: [
       {
         icon: "fab fa-github fa-2x",
         link: "Contact",
@@ -47,7 +47,7 @@ export default class SideDrawer extends Component {
   };
 
   render() {
-    const { navigation_items, social_itmes } = this.state;
+    const { navigation_items, social_items } = this.state;
     return (
       <aside
         className={
@@ -55,7 +55,7 @@ export default class SideDrawer extends Component {
         }
       >
         <div className={styles.toggler} onClick={this.props.toggleSidebar}>
-          <i class="fas fa-bars fa-2x"></i>
+          <i className="fas fa-bars fa-2x"></i>
         </div>
         <div className={styles.logo}>
           <img src="me.JPG" alt="me" />
@@ -67,7 +67,7 @@ export default class SideDrawer extends Component {
         <div className={styles.navigation}>
           <ul>
             {navigation_items.map((item) => (
-              <li>
+              <li key={item.title}>
                 <a href="#">
                   <img src={item.icon} alt="" />
                   <span className={styles.title}>{item.title}</span>
@@ -77,8 +77,8 @@ export default class SideDrawer extends Component {
           </ul>
         </div>
         <ul className={styles.social}>
-          {social_itmes.map((item) => (
-            <li>
+          {social_items.map((item,i) => (
+            <li key={i}>
               <a href="#" target="_blank" data-original-title="Linkedin">
                 <i className={item.icon}></i>
               </a>

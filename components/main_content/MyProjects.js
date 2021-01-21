@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Image from "next/image";
+import SectionTitle from "../SectionTitle";
 
 import styles from "../../styles/Projects.module.css";
 
@@ -40,15 +41,16 @@ export default class MyProjects extends Component {
     return (
       <section className={styles.projects}>
         <div className="container">
+          <SectionTitle title1={"PORTFOLIO"} title2={"MY Projects"} />
           {this.state.projects.map((item) => (
-            <article>
+            <article key={item.title}>
               <div className={styles.characteristics}>
                 <h2>{item.title}</h2>
                 <p className={styles.stack}>{item.stack}</p>
                 <p>{item.description}</p>
                 <div className={styles.icons}>
-                  <i class="fas fa-desktop fa-2x"></i>
-                  <i class="fas fa-code fa-2x"></i>
+                  <i className="fas fa-desktop fa-2x"></i>
+                  <i className="fas fa-code fa-2x"></i>
                 </div>
               </div>
               <div>
