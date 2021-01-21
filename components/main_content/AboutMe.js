@@ -2,6 +2,7 @@ import React from "react";
 import SectionTitle from "../SectionTitle";
 
 import styles from "../../styles/AboutMe.module.css";
+import Stack from "../Stack";
 
 export default function AboutMe() {
   return (
@@ -27,13 +28,22 @@ export default function AboutMe() {
               direct message or contact me through social media sites listed in
               my portfolio.
             </p>
-            <div>stack</div>
+            <Stack />
           </div>
           <div className={styles.address}>
             <ul>
-              <li><span>Name:</span> Mkrtich Sargsyan</li>
-              <li><span>Email:</span><a href="mailto:mkrtichsargsyan24@gmail.com">mkrtichsargsyan24@gmail.com</a></li>
-              <li><span>From:</span> Armenia, Erevan</li>
+              <li>
+                <span>Name:</span> Mkrtich Sargsyan
+              </li>
+              <li>
+                <span>Email:</span>
+                <a href="mailto:mkrtichsargsyan24@gmail.com">
+                  mkrtichsargsyan24@gmail.com
+                </a>
+              </li>
+              <li>
+                <span>From:</span> Armenia, Erevan
+              </li>
             </ul>
             <a
               href="https://drive.google.com/file/d/1u_0UdRaFIIg6cfQrDRYD-UgC1n5QL2jr/view?usp=sharing"
