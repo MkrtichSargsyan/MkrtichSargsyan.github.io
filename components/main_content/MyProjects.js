@@ -11,30 +11,31 @@ export default class MyProjects extends Component {
         title: "Fitness Shop",
         description:
           "This project is based on an online shop for electronics. Instead of a shop of electronics I created gym goods selling website",
-        image: "/fitshop.png",
+        image: "/screenshots/fitshop.png",
         stack: "Html,Css,Bootstrap",
       },
       {
-        title: "Fitness Shop",
+        title: "Cinemax",
         description:
-          "This project is based on an online shop for electronics. Design is followed from this website https://www.behance.net/gallery/24796463/ZATTIX , but instead of a shop of electronics I created gym goods selling website",
-        image: "/fitshop.png",
-        stack: "Html,Css,Bootstrap",
+          "In this project, I show movies catalog, where user can get more information about every movie and reserve a place in one of the available halls",
+        image: "/screenshots/cinemax.png",
+        stack: "React.js,Redux,Firebase ",
       },
       {
-        title: "Fitness Shop",
+        title: "Transactions",
         description:
-          "This project is based on an online shop for electronics. Design is followed from this website https://www.behance.net/gallery/24796463/ZATTIX , but instead of a shop of electronics I created gym goods selling website",
-        image: "/fitshop.png",
-        stack: "Html,Css,Bootstrap",
+          "The project is an app made especially for mobiles. Users can create, edit and delete transactions and group them",
+        image: "/screenshots/transaction.png",
+        stack: "Ruby on Rails,Bootstrap,PostgreSQL",
       },
       {
-        title: "Fitness Shop",
+        title: "Members-Only",
         description:
-          "This project is based on an online shop for electronics. Design is followed from this website https://www.behance.net/gallery/24796463/ZATTIX , but instead of a shop of electronics I created gym goods selling website",
-        image: "/fitshop.png",
-        stack: "Html,Css,Bootstrap",
+          "This project creates a secret social media platform where only authorized members can see who posted a ''crazy task''. This project was build as a result of inspiration by the novel of Chuck Palahniuk",
+        image: "/screenshots/members.png",
+        stack: "Ruby on Rails,Bootstrap",
       },
+      
     ],
   };
   render() {
