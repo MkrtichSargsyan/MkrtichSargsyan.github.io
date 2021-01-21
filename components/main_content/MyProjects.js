@@ -12,42 +12,41 @@ export default class MyProjects extends Component {
         description:
           "This project is based on an online shop for electronics. Instead of a shop of electronics I created gym goods selling website",
         image: "/screenshots/fitshop.png",
-        stack: "Html,Css,Bootstrap",
+        stack: "Html, Css, Bootstrap",
       },
       {
         title: "Cinemax",
         description:
           "In this project, I show movies catalog, where user can get more information about every movie and reserve a place in one of the available halls",
         image: "/screenshots/cinemax.png",
-        stack: "React.js,Redux,Firebase ",
+        stack: "React.js, Redux, Firebase ",
       },
       {
         title: "Transactions",
         description:
           "The project is an app made especially for mobiles. Users can create, edit and delete transactions and group them",
         image: "/screenshots/transaction.png",
-        stack: "Ruby on Rails,Bootstrap,PostgreSQL",
+        stack: "Ruby on Rails, Bootstrap, PostgreSQL",
       },
       {
         title: "Members-Only",
         description:
           "This project creates a secret social media platform where only authorized members can see who posted a ''crazy task''. This project was build as a result of inspiration by the novel of Chuck Palahniuk",
         image: "/screenshots/members.png",
-        stack: "Ruby on Rails,Bootstrap",
+        stack: "Ruby on Rails, Bootstrap",
       },
-      
     ],
   };
   render() {
     return (
       <section className={styles.projects}>
         <div className="container">
-          <SectionTitle title1={"PORTFOLIO"} title2={"MY Projects"} />
+          <SectionTitle title1={"PORTFOLIO"} title2={"My Projects"} />
           {this.state.projects.map((item) => (
             <article key={item.title}>
               <div className={styles.characteristics}>
                 <h2>{item.title}</h2>
-                <p className={styles.stack}>{item.stack}</p>
+                <p className={styles.stack}>Tech Stack Used: {item.stack}</p>
                 <p>{item.description}</p>
                 <div className={styles.icons}>
                   <i className="fas fa-desktop fa-2x"></i>
@@ -57,7 +56,7 @@ export default class MyProjects extends Component {
               <div>
                 <Image
                   src={item.image}
-                  alt="Picture of the author"
+                  alt="Picture"
                   width={400}
                   height={250}
                 />

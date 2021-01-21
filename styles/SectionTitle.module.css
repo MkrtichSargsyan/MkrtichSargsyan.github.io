@@ -12,7 +12,7 @@
 
 .title p {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
   font-size: 30px;
@@ -29,5 +29,5 @@
   width: 50%;
   display: block;
   border-top: 3px solid red;
-  margin-top: px;
+  margin-top: 5px;
 }

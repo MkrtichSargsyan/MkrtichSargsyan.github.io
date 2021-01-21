@@ -5,9 +5,9 @@ import styles from '../styles/SectionTitle.module.css'
 export default function SectionTitle({title1,title2}) {
   return (
     <div className={styles.title}>
-      <h2>PORTFOLIO</h2>
+      <h2>{title1}</h2>
       <p>
-        MY Projects <hr />
+        {title2} <hr />
       </p>
     </div>
   );

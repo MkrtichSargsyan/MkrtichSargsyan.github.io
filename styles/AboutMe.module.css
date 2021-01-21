@@ -1,0 +1,73 @@
+.about_section {
+  background-color: #b8c9cc1f;
+}
+
+.aboutMe {
+  display: flex;
+  padding: 0 30px;
+}
+
+.aboutMe h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.aboutMe p {
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #767777;
+}
+
+.name {
+  color: brown;
+}
+
+.aboutMe div:first-child {
+  width: 60%;
+}
+
+.aboutMe .address {
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 30px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #767777;
+  font-size: 16px;
+}
+
+.address li {
+  padding: 20px 0;
+}
+
+.address li:not(:last-child) {
+  border-bottom: 1px solid #c9d4d0;
+}
+
+.address li:nth-child(2) a {
+  color: brown;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.address li:nth-child(2) a:hover {
+  color: rgb(51, 49, 49);
+  transition: all 0.5s ease;
+}
+
+.address ul span {
+  color: black;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.address .cv_button {
+  background: brown;
+  color: white;
+  text-decoration: none;
+  padding: 17px;
+  margin-top: 20px;
+  border-radius: 76px;
+}
