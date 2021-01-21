@@ -1,10 +1,10 @@
 .about_section {
   background-color: #b8c9cc1f;
+  padding: 0 50px 50px;
 }
 
 .aboutMe {
   display: flex;
-  padding: 0 30px;
 }
 
 .aboutMe h2 {
@@ -23,15 +23,10 @@
   color: brown;
 }
 
-.aboutMe div:first-child {
-  width: 60%;
-}
-
 .aboutMe .address {
   align-items: flex-start;
   justify-content: center;
   margin-left: 30px;
-  flex: 1;
   display: flex;
   flex-direction: column;
   color: #767777;
@@ -70,4 +65,11 @@
   padding: 17px;
   margin-top: 20px;
   border-radius: 76px;
+  transition: all 0.5s ease;
+}
+
+.address .cv_button:hover{
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(1.05) perspective(1px);
 }
