@@ -10,11 +10,14 @@ import Footer from "./Footer";
 export default function Main(props) {
   return (
     <main className={props.active ? styles.ml : styles.mr}>
+      <div className={styles.main}>
+
       <Showcase />
       <MyProjects />
       <AboutMe />
       <Contact />
       <Footer/>
+      </div>
     </main>
   );
 }

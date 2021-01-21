@@ -2,6 +2,7 @@
   position: relative;
   text-align: center;
   margin-bottom: 50px;
+  border: 1px solid black;
 }
 
 .title h2 {
@@ -30,4 +31,21 @@
   display: block;
   border-top: 3px solid red;
   margin-top: 5px;
+}
+
+
+@media screen and (max-width: 2227px) {
+  .title h2 {
+    font-size: 140px;
+    color: #dee3e4;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1227px) {
+  .title h2 {
+    font-size: 40px;
+    color: #dee3e4;
+    font-weight: 700;
+  }
 }

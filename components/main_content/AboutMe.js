@@ -35,12 +35,12 @@ export default function AboutMe() {
               <li>
                 <span>Name:</span> Mkrtich Sargsyan
               </li>
-              <li>
+              {/* <li>
                 <span>Email:</span>
                 <a href="mailto:mkrtichsargsyan24@gmail.com">
                   mkrtichsargsyan24@gmail.com
                 </a>
-              </li>
+              </li> */}
               <li>
                 <span>From:</span> Armenia, Erevan
               </li>

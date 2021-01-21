@@ -15,12 +15,11 @@ function Showcase() {
 
         <blockquote>
           <i>
-            “Programming is like sex. One mistake and you have to support it for
-            the rest of your life.”
+            “if you can write "hello world" you can change the world” ― Raghu
+            Venkatesh
           </i>
         </blockquote>
         <div className={styles.hire_button}>Hire Me</div>
-
       </div>
     </section>
   );

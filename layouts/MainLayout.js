@@ -14,7 +14,30 @@ export default class MainLayout extends Component {
     });
   };
 
+  updateSize = () => {
+    if (window.innerWidth <= 960) {
+      this.setState({
+        active: false,
+      });
+    } else {
+      this.setState({
+        active: true,
+      });
+    }
+  };
+
+  componentDidMount = () => {
+    this.setState({
+      active: window.innerWidth <= 960 ? false : true,
+    });
+  };
+
+  componentDidUpdate = () => {
+    window.addEventListener("resize", this.updateSize);
+  };
+
   render() {
+    this.updateSize;
     return (
       <div>
         <SideDrawer

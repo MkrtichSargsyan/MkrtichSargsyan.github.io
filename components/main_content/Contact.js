@@ -13,14 +13,12 @@ export default function Contact() {
             <input
               name="name"
               type="text"
-              className=""
               required=""
               placeholder="Your Name"
             />
             <input
               name="email"
               type="email"
-              classname=""
               required=""
               placeholder="Your Email"
             />
@@ -28,7 +26,7 @@ export default function Contact() {
           <div className={styles.textarea}>
             <textarea
               name="form-message"
-              class="form-control"
+              className="form-control"
               rows="5"
               required=""
               placeholder="Your Message..."
