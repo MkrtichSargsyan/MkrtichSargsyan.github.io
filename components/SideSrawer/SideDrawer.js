@@ -92,7 +92,6 @@ export default class SideDrawer extends Component {
               <a
                 href={item.link}
                 target="_blank"
-                data-original-title="Linkedin"
               >
                 <i className={item.icon}></i>
               </a>

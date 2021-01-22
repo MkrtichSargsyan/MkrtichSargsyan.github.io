@@ -45,11 +45,25 @@
   min-height: 350px;
 }
 
+.projects a{
+  color: black;
+}
+
 .projects .icons {
   display: flex;
   margin-top: 40px;
   margin-bottom: 20px;
   justify-content: center;
+}
+
+.icons i{
+  transition: all 0.2s ease-in-out;
+}
+
+.icons i:hover {
+  color: brown;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .icons i:first-child {
@@ -97,5 +111,13 @@
   .projects article > div:first-child {
     max-width: none;
     min-height: unset;
+  }
+
+  .projects article .icons{
+    display: flex;
+    justify-content: space-around;
+  }
+  .icons i:first-child {
+    margin-right: 0;
   }
 }
