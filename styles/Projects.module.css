@@ -1,6 +1,5 @@
 .projects {
   background-color: #cec7b94f;
-  padding: 0 50px;
 }
 
 
@@ -13,6 +12,10 @@
   background-color: #fff;
   margin-bottom: 50px;
   transition: all 0.5s ease-in-out;
+}
+
+.projects article:last-child{
+  margin-bottom: 0;
 }
 
 .projects article:hover{
@@ -50,4 +53,19 @@
 
 .icons i:first-child {
   margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .projects article {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .projects article div:first-child{
+    order: 2;
+  }
+
+  .projects article div:last-child{
+    order: 1;
+  }
 }

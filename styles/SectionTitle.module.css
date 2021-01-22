@@ -8,7 +8,6 @@
 .title h2 {
   font-size: 140px;
   color: #dee3e4;
-  font-weight: 700;
 }
 
 .title p {
@@ -34,7 +33,7 @@
 }
 
 
-@media screen and (max-width: 2227px) {
+@media screen and (max-width: 1440px) {
   .title h2 {
     font-size: 140px;
     color: #dee3e4;
@@ -42,10 +41,23 @@
   }
 }
 
-@media screen and (max-width: 1227px) {
+@media screen and (max-width: 1230px) {
   .title h2 {
-    font-size: 40px;
-    color: #dee3e4;
-    font-weight: 700;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .title h2 {
+    font-size: 50px;
+  }
+
+  .title p {
+    font-size: 16px;
   }
 }

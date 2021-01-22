@@ -5,6 +5,7 @@ import SideDrawer from "../components/SideSrawer/SideDrawer";
 export default class MainLayout extends Component {
   state = {
     active: true,
+    width: ''
   };
 
   toggleSidebar = (e) => {
@@ -18,10 +19,12 @@ export default class MainLayout extends Component {
     if (window.innerWidth <= 960) {
       this.setState({
         active: false,
+        width: 'mobile'
       });
     } else {
       this.setState({
-        active: true,
+        // active: true,
+        width: 'desktop'
       });
     }
   };
@@ -29,6 +32,7 @@ export default class MainLayout extends Component {
   componentDidMount = () => {
     this.setState({
       active: window.innerWidth <= 960 ? false : true,
+      width: window.innerWidth <= 960 ? 'mobile' : 'desktop'
     });
   };
 
@@ -37,6 +41,7 @@ export default class MainLayout extends Component {
   };
 
   render() {
+
     this.updateSize;
     return (
       <div>
@@ -44,7 +49,7 @@ export default class MainLayout extends Component {
           active={this.state.active}
           toggleSidebar={this.toggleSidebar}
         />
-        <Main active={this.state.active} />
+        <Main active={this.state.active} width={this.state.width}/>
       </div>
     );
   }

@@ -45,7 +45,7 @@ export default class MyProjects extends Component {
           {this.state.projects.map((item) => (
             <article key={item.title}>
               <div className={styles.characteristics}>
-                <h2>{item.title}</h2>
+                {/* <h2>{item.title}</h2> */}
                 <p className={styles.stack}>Tech Stack Used: {item.stack}</p>
                 <p>{item.description}</p>
                 <div className={styles.icons}>

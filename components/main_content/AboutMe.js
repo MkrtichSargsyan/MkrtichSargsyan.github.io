@@ -45,13 +45,13 @@ export default function AboutMe() {
                 <span>From:</span> Armenia, Erevan
               </li>
             </ul>
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/1u_0UdRaFIIg6cfQrDRYD-UgC1n5QL2jr/view?usp=sharing"
               className={styles.cv_button}
               target="_blank"
             >
               Go through my CV
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

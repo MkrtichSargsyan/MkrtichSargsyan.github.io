@@ -1,13 +1,9 @@
-.main{
-  width: 100%;
-}
-
 .ml{
-  margin-left: 310px;
   transition: 850ms;
+  margin-left: 310px;
 }
 
-.mr{
+.none{
   margin-left: 0;
   transition: 850ms;
 }
