@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-scroll";
 import styles from "../../styles/Showcase.module.css";
 
 function Showcase() {
   return (
-    <section className={styles.showcase} id='Home'>
+    <section className={styles.showcase} id="Home">
       <div className="container">
         <h2 className={styles.greeting}>
           Hello. I'm
@@ -19,7 +20,16 @@ function Showcase() {
             Venkatesh
           </i>
         </blockquote>
-        <div className={styles.hire_button}>Hire Me</div>
+        <Link
+          class="active"
+          to='Contact'
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={1000}
+        >
+          <div className={styles.hire_button}>Hire Me</div>
+        </Link>
       </div>
     </section>
   );

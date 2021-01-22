@@ -76,7 +76,7 @@ export default class SideDrawer extends Component {
                 spy={true}
                 smooth={true}
                 offset={0}
-                duration={500}
+                duration={700}
               >
                 <li key={item.title}>
                   <img src={item.icon} alt="" />
