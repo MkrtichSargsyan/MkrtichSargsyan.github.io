@@ -65,16 +65,25 @@
   flex-grow: 1;
 }
 
+.navigation > .active {
+  border-bottom: 1px solid #aaaaaa;
+}
+
 .navigation ul{
   padding-top: 20px;
 }
 
 .navigation ul li{
+  width: 100%;
   padding: 20px 40px 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation ul li:hover{
   background-color: #09090a;
+  cursor: pointer;
 }
 
 .navigation ul li:hover .title{
@@ -88,9 +97,6 @@
 .navigation a{
   text-decoration: none;
   color: rgb(99 99 99);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .navigation .title{

@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 import styles from "../../styles/SideDrawer.module.css";
 
 export default class SideDrawer extends Component {
@@ -25,23 +27,24 @@ export default class SideDrawer extends Component {
     social_items: [
       {
         icon: "fab fa-github fa-2x",
-        link: "Contact",
+        link: "https://github.com/MkrtichSargsyan",
       },
       {
         icon: "fab fa-twitter fa-2x",
-        link: "Contact",
+        link: "https://twitter.com/MkrtichSargsyan",
       },
       {
         icon: "fab fa-linkedin fa-2x",
-        link: "Contact",
+        link: "https://www.linkedin.com/in/mkrtich-sargsyan/",
       },
       {
         icon: "fas fa-envelope fa-2x",
-        link: "Contact",
+        link: "mailto:mkrtichsargsyan24@gmail.com",
       },
       {
         icon: "fas fa-file fa-2x",
-        link: "Contact",
+        link:
+          "https://drive.google.com/file/d/1u_0UdRaFIIg6cfQrDRYD-UgC1n5QL2jr/view?usp=sharing",
       },
     ],
   };
@@ -67,19 +70,30 @@ export default class SideDrawer extends Component {
         <div className={styles.navigation}>
           <ul>
             {navigation_items.map((item) => (
-              <li key={item.title}>
-                <a href="#">
+              <Link
+                class="active"
+                to={item.title}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
+                <li key={item.title}>
                   <img src={item.icon} alt="" />
                   <span className={styles.title}>{item.title}</span>
-                </a>
-              </li>
+                </li>
+              </Link>
             ))}
           </ul>
         </div>
         <ul className={styles.social}>
-          {social_items.map((item,i) => (
+          {social_items.map((item, i) => (
             <li key={i}>
-              <a href="#" target="_blank" data-original-title="Linkedin">
+              <a
+                href={item.link}
+                target="_blank"
+                data-original-title="Linkedin"
+              >
                 <i className={item.icon}></i>
               </a>
             </li>

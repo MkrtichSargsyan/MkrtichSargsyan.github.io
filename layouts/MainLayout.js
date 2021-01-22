@@ -23,7 +23,7 @@ export default class MainLayout extends Component {
       });
     } else {
       this.setState({
-        // active: true,
+        active: true,
         width: 'desktop'
       });
     }

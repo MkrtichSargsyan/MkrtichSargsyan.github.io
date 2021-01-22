@@ -39,7 +39,7 @@ export default class MyProjects extends Component {
   };
   render() {
     return (
-      <section className={styles.projects}>
+      <section className={styles.projects} id='My projects'>
         <div className="container">
           <SectionTitle title1={"PORTFOLIO"} title2={"My Projects"} />
           {this.state.projects.map((item) => (

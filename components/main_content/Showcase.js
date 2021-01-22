@@ -3,7 +3,7 @@ import styles from "../../styles/Showcase.module.css";
 
 function Showcase() {
   return (
-    <section className={styles.showcase}>
+    <section className={styles.showcase} id='Home'>
       <div className="container">
         <h2 className={styles.greeting}>
           Hello. I'm

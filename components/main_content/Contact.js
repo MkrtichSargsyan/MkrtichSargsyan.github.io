@@ -5,7 +5,7 @@ import SectionTitle from "../SectionTitle";
 
 export default function Contact() {
   return (
-    <section className={styles.contact_section}>
+    <section className={styles.contact_section} id='Contact'>
       <div className="container">
         <SectionTitle title1={"CONTACT"} title2={"Get In Touch"} />
         <form className={styles.contact} method="post" action="#">
