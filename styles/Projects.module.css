@@ -47,7 +47,8 @@
 
 .projects .icons {
   display: flex;
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   justify-content: center;
 }
 
@@ -55,10 +56,26 @@
   margin-right: 50px;
 }
 
+@media screen and (max-width: 1130px) {
+  .projects article h2{
+    font-size: 36px;
+  }
+
+  .projects .icons {
+    margin-top: 33px;
+    margin-bottom: 20px;
+  }
+
+  .projects article p{
+    font-size: 16px;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   .projects article {
     flex-direction: column;
-    padding: 10px;
+    padding: 30px 10px;
   }
 
   .projects article div:first-child{
@@ -67,5 +84,18 @@
 
   .projects article div:last-child{
     order: 1;
+  }
+
+  .projects .stack {
+    font-size: 15px;
+  }
+
+  .projects article h2 {
+    font-size: 40px;
+  }
+
+  .projects article > div:first-child {
+    max-width: none;
+    min-height: unset;
   }
 }

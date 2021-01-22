@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }) {
         }
         .container {
           margin: 0 auto;
-          padding: 50px;
+          padding: 50px 0;
         }
 
         html,

@@ -2,7 +2,6 @@
   position: relative;
   text-align: center;
   margin-bottom: 50px;
-  border: 1px solid black;
 }
 
 .title h2 {
@@ -47,14 +46,10 @@
   }
 }
 
-@media screen and (max-width: 610px) {
-
-}
-
 @media screen and (max-width: 768px) {
  
   .title h2 {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .title p {

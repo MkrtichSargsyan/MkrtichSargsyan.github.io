@@ -37,7 +37,6 @@ export default class Main extends Component {
       style = active ? 'ml' : 'none'
     }
 
-    console.log(style);
     return (
       <main>
         <div className={style=='ml' ? styles.ml : styles.none}>

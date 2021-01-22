@@ -10,6 +10,7 @@
   font-family: 'Source Sans Pro', sans-serif;
   width: 310px;
   transition: 850ms;
+  z-index: 1000;
 }
 
 .side_drawer_close {
@@ -99,6 +100,7 @@
 /* social */
 
 .social{
+  border-top: 1px solid rgb(65, 72, 76);
   bottom: 0;
   left: 0;
   right: 0;
@@ -122,4 +124,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .side_drawer_open {
+    width: 284px;
+  }
+  .logo .my_name{
+    font-size: 18px;
+  }
 }

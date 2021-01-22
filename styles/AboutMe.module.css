@@ -2,6 +2,10 @@
   background-color: #b8c9cc1f;
 }
 
+.about_section .container{
+  padding: 50px 0;
+}
+
 .aboutMe {
   display: flex;
 }
@@ -24,7 +28,6 @@
 
 .aboutMe .address {
   align-items: flex-start;
-  justify-content: center;
   margin-left: 30px;
   display: flex;
   flex-direction: column;
@@ -71,4 +74,24 @@
   cursor: pointer;
   transition: all 0.5s ease;
   transform: scale(1.05) perspective(1px);
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .aboutMe{
+    flex-direction: column;
+  }
+
+  .aboutMe h2{
+    text-align: center;
+  }
+
+  .aboutMe p{
+    margin-bottom: 45px;
+  }
+
+  .aboutMe .address{
+    margin-left: 0;
+    margin-top: 30px;
+  }
 }
