@@ -12,6 +12,7 @@ function Showcase() {
           <br />
           Full Stack Web Developer
         </h2>
+        <p>based in Armenia,Yerevan</p>
 
         <blockquote>
           <i>
