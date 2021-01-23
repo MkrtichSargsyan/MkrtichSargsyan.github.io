@@ -19,6 +19,7 @@
   flex-direction: column;
   top: 0;
   bottom: 0;
+  z-index: 1000;
   background-color: #020308;
   height: 100vh !important;
   color: rgb(99 99 99);
@@ -136,8 +137,10 @@
 @media screen and (max-width: 768px) {
   .side_drawer_open {
     width: 284px;
+    z-index: 1000;
   }
   .logo .my_name{
     font-size: 18px;
+    z-index: 1000;
   }
 }
