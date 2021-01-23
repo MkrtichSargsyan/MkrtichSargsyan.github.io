@@ -12,21 +12,14 @@ function Showcase() {
           <br />
           Full Stack Web Developer
         </h2>
-        <p>based in Armenia,Erevan</p>
 
         <blockquote>
           <i>
-            “if you can write "hello world" you can change the world” ― Raghu
-            Venkatesh
+            A good programmer is someone who always looks both ways before
+            crossing a one-way street. (Doug Linder)
           </i>
         </blockquote>
-        <Link
-          to='Contact'
-          spy={true}
-          smooth={true}
-          offset={0}
-          duration={1000}
-        >
+        <Link to="Contact" spy={true} smooth={true} offset={0} duration={1000}>
           <div className={styles.hire_button}>Hire Me</div>
         </Link>
       </div>
