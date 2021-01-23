@@ -18,11 +18,11 @@
   margin-bottom: 0;
 }
 
-.projects article:hover{
+/* .projects article:hover{
   transform: scale(1.02) perspective(1px);
   transition: all 0.5s ease-in-out;
   box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 9px 0px;
-}
+} */
 
 .projects article p {
   font-weight: 300;

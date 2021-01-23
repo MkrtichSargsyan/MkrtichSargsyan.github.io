@@ -24,14 +24,6 @@
   align-items: center;
 }
 
-.title p hr {
-  width: 50%;
-  display: block;
-  border-top: 3px solid red;
-  margin-top: 5px;
-}
-
-
 @media screen and (max-width: 1440px) {
   .title h2 {
     font-size: 140px;

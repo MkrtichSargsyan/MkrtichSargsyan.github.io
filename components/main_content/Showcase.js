@@ -21,7 +21,6 @@ function Showcase() {
           </i>
         </blockquote>
         <Link
-          class="active"
           to='Contact'
           spy={true}
           smooth={true}

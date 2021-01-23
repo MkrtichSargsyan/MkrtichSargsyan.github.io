@@ -71,14 +71,14 @@ export default class SideDrawer extends Component {
           <ul>
             {navigation_items.map((item) => (
               <Link
-                class="active"
+                key={item.title}
                 to={item.title}
                 spy={true}
                 smooth={true}
                 offset={0}
                 duration={700}
               >
-                <li key={item.title}>
+                <li>
                   <img src={item.icon} alt="" />
                   <span className={styles.title}>{item.title}</span>
                 </li>

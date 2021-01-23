@@ -7,7 +7,7 @@ export default function SectionTitle({title1,title2}) {
     <div className={styles.title}>
       <h2>{title1}</h2>
       <p>
-        {title2} <hr />
+        {title2}
       </p>
     </div>
   );
