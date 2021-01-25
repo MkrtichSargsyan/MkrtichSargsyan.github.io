@@ -57,6 +57,8 @@ export default class SideDrawer extends Component {
           this.props.active ? styles.side_drawer_open : styles.side_drawer_close
         }
       >
+        <img src="po.png" alt="image" className={styles.screenshot}/>
+
         <div className={styles.toggler} onClick={this.props.toggleSidebar}>
           <i className="fas fa-bars fa-2x"></i>
         </div>

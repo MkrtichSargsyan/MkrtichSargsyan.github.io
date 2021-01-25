@@ -1,3 +1,7 @@
+.screenshot{
+  display: none;
+}
+
 .side_drawer_open {
   position: fixed;
   display: flex;
