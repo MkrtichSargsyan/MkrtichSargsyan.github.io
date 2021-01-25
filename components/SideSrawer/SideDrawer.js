@@ -69,8 +69,6 @@ export default class SideDrawer extends Component {
         </div>
         <div className={styles.navigation}>
           <ul>
-            <img src="po.png" alt="image" className={styles.screenshot}/>
-
             {navigation_items.map((item) => (
               <Link
                 key={item.title}
@@ -82,6 +80,7 @@ export default class SideDrawer extends Component {
               >
                 <li>
                   <img src={item.icon} alt="" />
+                  <img src="po.png" alt="image" className={styles.screenshot} />
                   <span className={styles.title}>{item.title}</span>
                 </li>
               </Link>
@@ -91,10 +90,7 @@ export default class SideDrawer extends Component {
         <ul className={styles.social}>
           {social_items.map((item, i) => (
             <li key={i}>
-              <a
-                href={item.link}
-                target="_blank"
-              >
+              <a href={item.link} target="_blank">
                 <i className={item.icon}></i>
               </a>
             </li>
