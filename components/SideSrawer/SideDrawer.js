@@ -80,7 +80,6 @@ export default class SideDrawer extends Component {
               >
                 <li>
                   <img src={item.icon} alt="" />
-                  <img src="po.png" alt="image" className={styles.screenshot} />
                   <span className={styles.title}>{item.title}</span>
                 </li>
               </Link>
