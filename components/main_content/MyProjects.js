@@ -31,7 +31,7 @@ export default class MyProjects extends Component {
           "The project is an app made especially for mobiles. Users can create, edit and delete transactions and group them",
         image: "/screenshots/transaction.png",
         stack: "Ruby on Rails, Bootstrap, PostgreSQL",
-        live: "https://transactions-01.herokuapp.com/",
+        live: "https://transaction-01.herokuapp.com/",
         repo: "https://github.com/MkrtichSargsyan/Transactions",
       },
       {
