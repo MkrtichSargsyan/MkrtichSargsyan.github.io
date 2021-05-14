@@ -5,10 +5,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta
+          {/* <meta
             property="og:image"
             content="https://user-images.githubusercontent.com/31889642/117984213-b2941b00-b348-11eb-8a03-f092f5cf6264.png"
-          />
+          /> */}
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link rel="shortcut icon" href="/static/favicon.ico" />

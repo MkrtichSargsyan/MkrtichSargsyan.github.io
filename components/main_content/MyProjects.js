@@ -8,23 +8,23 @@ export default class MyProjects extends Component {
   state = {
     projects: [
       {
-        title: "Fitness Shop",
+        title: "RPG-game-js",
         description:
-          "This project is based on an online shop for electronics. Instead of a shop of electronics I created gym goods selling website",
-        image: "/screenshots/fitshop.png",
-        stack: "Html, Css, Bootstrap",
-        live: "https://mkrtichsargsyan.github.io/Fitness-Shop/",
-        repo: "https://github.com/MkrtichSargsyan/Fitness-Shop",
+          "The game is about a lonely knight that fell into an island on which there are lots of bandits",
+        image: "/screenshots/game.png",
+        stack: "JavaScript, and Phaser,Matter.js,Webpack,Tiled,Babbel",
+        live: "https://ecstatic-rosalind-eeae5f.netlify.app/",
+        repo: "https://github.com/MkrtichSargsyan/RPG-game-js",
       },
-      {
-        title: "Cinemax",
-        description:
-          "In this project, I show movies catalog, where user can get more information about every movie and reserve a place in one of the available halls",
-        image: "/screenshots/cinemax.png",
-        stack: "React.js, Redux, Firebase ",
-        live: "#",
-        repo: "https://github.com/MkrtichSargsyan/cinema",
-      },
+      // {
+      //   title: "Cinemax",
+      //   description:
+      //     "In this project, I show movies catalog, where user can get more information about every movie and reserve a place in one of the available halls",
+      //   image: "/screenshots/cinemax.png",
+      //   stack: "React.js, Redux, Firebase ",
+      //   live: "#",
+      //   repo: "https://github.com/MkrtichSargsyan/cinema",
+      // },
       {
         title: "Transactions",
         description:
@@ -33,6 +33,15 @@ export default class MyProjects extends Component {
         stack: "Ruby on Rails, Bootstrap, PostgreSQL",
         live: "https://transaction-01.herokuapp.com/",
         repo: "https://github.com/MkrtichSargsyan/Transactions",
+      },
+      {
+        title: "Goal Manager",
+        description:
+          "In this project, we build a Goal Manager application in which users can add goals and interact with them simply by drag & drop the step between the columns of different states (undone/doing/done) and persist data in a browser with local storage",
+        image: "/screenshots/goal.png",
+        stack: "HTML,CSS,JavaScript,Tailwind.css,Webpack",
+        live: "https://mkrtichsargsyan.github.io/Todo-List-js/",
+        repo: "https://github.com/MkrtichSargsyan/Todo-List-js",
       },
       {
         title: "Members-Only",
