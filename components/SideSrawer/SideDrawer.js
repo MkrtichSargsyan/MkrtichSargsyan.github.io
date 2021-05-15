@@ -44,7 +44,7 @@ export default class SideDrawer extends Component {
       {
         icon: "fas fa-file fa-2x",
         link:
-          "https://drive.google.com/file/d/1u_0UdRaFIIg6cfQrDRYD-UgC1n5QL2jr/view?usp=sharing",
+          "https://docs.google.com/document/d/1LSZS8Fb1JeWTeDxypFzB-Dbk43PW5YjmpvYisxxDIe8/edit",
       },
     ],
   };
