@@ -18,7 +18,7 @@ export default function AboutMe() {
             <p>
               I'm a graduate from the prestigious Microverse Bootcamp that only
               accepts a small percentage of applicants, where I am also
-              currently a student mentor. I acquired professional-level skills,
+              currently a code reviewer and a student mentor. I acquired professional-level skills,
               including Ruby, Ruby on Rails, JavaScript, React, Redux,
               Bootstrap, and Test-Driven development techniques.
             </p>
@@ -46,7 +46,7 @@ export default function AboutMe() {
               </li>
             </ul>
             <a
-              href="https://drive.google.com/file/d/1u_0UdRaFIIg6cfQrDRYD-UgC1n5QL2jr/view?usp=sharing"
+              href="https://docs.google.com/document/d/1VEUnqDuNRsuU_kx3Ctb3LNe-g0HpMLziwiOcftW6hSc/edit"
               className={styles.cv_button}
               target="_blank"
             >
