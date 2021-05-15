@@ -35,6 +35,15 @@ export default class MyProjects extends Component {
         repo: "https://github.com/MkrtichSargsyan/Transactions",
       },
       {
+        title: "Restaurant Page",
+        description:
+          "Restaurant page app that shows list of Armenian traditional meals",
+        image: "/screenshots/restaurant.png",
+        stack: "HTML, CSS, JavaScript, Tailwind.css, Webpack",
+        live: "https://mkrtichsargsyan.github.io/Restaurant-Page/",
+        repo: "https://github.com/MkrtichSargsyan/Restaurant-Page",
+      },
+      {
         title: "Goal Manager",
         description:
           "In this project, we build a Goal Manager application in which users can add goals and interact with them simply by drag & drop the step between the columns of different states (undone/doing/done) and persist data in a browser with local storage",

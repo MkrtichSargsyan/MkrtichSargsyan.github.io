@@ -46,7 +46,7 @@ export default function AboutMe() {
               </li>
             </ul>
             <a
-              href="https://docs.google.com/document/d/1VEUnqDuNRsuU_kx3Ctb3LNe-g0HpMLziwiOcftW6hSc/edit"
+              href="https://docs.google.com/document/d/1LSZS8Fb1JeWTeDxypFzB-Dbk43PW5YjmpvYisxxDIe8/edit?usp=sharing"
               className={styles.cv_button}
               target="_blank"
             >
