@@ -33,10 +33,9 @@ export default function Contact() {
               value="Send Message"
               className={styles.submit_button}
             />
-            <div className ={styles.successMessage}>
-              {/* Thank you for contacting me <br/> */}
+            {/* <div className ={styles.successMessage}>
               Your message has been successfully sent
-            </div>
+            </div> */}
         </form>
       </div>
     </section>
