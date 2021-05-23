@@ -8,7 +8,7 @@ export default function AboutMe() {
   return (
     <section className={styles.about_section} id='About me'>
       <div className="container">
-        <SectionTitle title1={"ABOUT ME"} title2={"Know Me More"} />
+        <SectionTitle title1={"ABOUT ME"} title2={"Learn More"} />
         <div className={styles.aboutMe}>
           <div>
             <h2>
@@ -16,11 +16,10 @@ export default function AboutMe() {
               full-stack web developer.
             </h2>
             <p>
-              I'm a graduate from the prestigious Microverse Bootcamp that only
-              accepts a small percentage of applicants, where I am also
-              currently a code reviewer and a student mentor. I acquired professional-level skills,
+              I'm a graduate from Microverse, a prestigious software development school that only accepts a small percentage of applicants. I'm also currently 
+              a code reviewer and a student mentor. I acquired professional-level skills,
               including Ruby, Ruby on Rails, JavaScript, React, Redux,
-              Bootstrap, and Test-Driven development techniques.
+              Bootstrap, and Test-Driven Development techniques.
             </p>
             <p>
               Feel free to look through some of my work and experience! If you

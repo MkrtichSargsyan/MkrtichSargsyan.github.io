@@ -13,11 +13,11 @@ export default class SideDrawer extends Component {
       },
       {
         icon: "icons/folder.png",
-        title: "My projects",
+        title: "My Projects",
       },
       {
         icon: "icons/user.png",
-        title: "About me",
+        title: "About Me",
       },
       {
         icon: "icons/message.png",

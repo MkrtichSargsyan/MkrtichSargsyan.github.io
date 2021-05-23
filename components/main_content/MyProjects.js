@@ -10,9 +10,9 @@ export default class MyProjects extends Component {
       {
         title: "RPG-game-js",
         description:
-          "The game is about a lonely knight that fell into an island on which there are lots of bandits",
+          "Play a game about a lonely knight that teleported to an island on which there are lots of bandits.",
         image: "/screenshots/game.png",
-        stack: "JavaScript, and Phaser,Matter.js,Webpack,Tiled,Babbel",
+        stack: "JavaScript,\t Phaser, Matter.js,  Webpack, Tiled, Babbel",
         live: "https://ecstatic-rosalind-eeae5f.netlify.app/",
         repo: "https://github.com/MkrtichSargsyan/RPG-game-js",
       },
@@ -28,7 +28,7 @@ export default class MyProjects extends Component {
       {
         title: "Transactions",
         description:
-          "The project is an app made especially for mobiles. Users can create, edit and delete transactions and group them",
+          "A mobile app where users can create, edit and delete transactions and group them.",
         image: "/screenshots/transaction.png",
         stack: "Ruby on Rails, Bootstrap, PostgreSQL",
         live: "https://transaction-01.herokuapp.com/",
@@ -37,7 +37,7 @@ export default class MyProjects extends Component {
       {
         title: "Restaurant Page",
         description:
-          "Restaurant page app that shows list of Armenian traditional meals",
+          "A restaurant page app that shows list of traditional Armenian meals.",
         image: "/screenshots/restaurant.png",
         stack: "HTML, CSS, JavaScript, Tailwind.css, Webpack",
         live: "https://mkrtichsargsyan.github.io/Restaurant-Page/",
@@ -46,16 +46,16 @@ export default class MyProjects extends Component {
       {
         title: "Goal Manager",
         description:
-          "In this project, we build a Goal Manager application in which users can add goals and interact with them simply by drag & drop the step between the columns of different states (undone/doing/done) and persist data in a browser with local storage",
+          "A goal manager application in which users can add goals and interact with tasks by simply dragging & dropping them between the different states (undone/doing/done). The data persists in the browser's local storage.",
         image: "/screenshots/goal.png",
-        stack: "HTML,CSS,JavaScript,Tailwind.css,Webpack",
+        stack: "HTML, CSS, JavaScript, Tailwind.css, Webpack",
         live: "https://mkrtichsargsyan.github.io/Todo-List-js/",
         repo: "https://github.com/MkrtichSargsyan/Todo-List-js",
       },
       {
         title: "Members-Only",
         description:
-          "This project creates a secret social media platform where only authorized members can see who posted a ''crazy task''. This project was build as a result of inspiration by the novel of Chuck Palahniuk",
+          "A secret social media platform where only authorized members can see who posted a ''crazy task''. This project was inspired by Fight Club, a novel by Chuck Palahniuk.",
         image: "/screenshots/members.png",
         stack: "Ruby on Rails, Bootstrap",
         live: "https://fight-club01.herokuapp.com/",

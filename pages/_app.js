@@ -3,6 +3,8 @@ export default function MyApp({ Component, pageProps }) {
     <>
       <Component {...pageProps} />
       <style jsx global>{`
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+
         * {
           box-sizing: border-box;
           margin: 0;
@@ -24,6 +26,7 @@ export default function MyApp({ Component, pageProps }) {
           margin: 0;
           padding: 0;
           font-family: "Source Sans Pro", sans-serif;
+          
         }
 
         ul {
