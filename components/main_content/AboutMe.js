@@ -6,7 +6,7 @@ import Stack from "../Stack";
 
 export default function AboutMe() {
   return (
-    <section className={styles.about_section} id='About me'>
+    <section className={styles.about_section} id='About Me'>
       <div className="container">
         <SectionTitle title1={"ABOUT ME"} title2={"Learn More"} />
         <div className={styles.aboutMe}>
