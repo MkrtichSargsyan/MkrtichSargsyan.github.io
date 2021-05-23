@@ -10,7 +10,7 @@ function Showcase() {
           Hello. I'm
           <strong className={styles.white}> Mike,</strong>
           <br />
-          A Full Stack Web Developer
+          A Full-Stack Web Developer
         </h2>
         <p>based in Armenia, Yerevan</p>
 

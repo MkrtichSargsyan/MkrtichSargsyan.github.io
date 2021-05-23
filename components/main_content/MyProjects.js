@@ -12,7 +12,7 @@ export default class MyProjects extends Component {
         description:
           "Play a game about a lonely knight that teleported to an island on which there are lots of bandits.",
         image: "/screenshots/game.png",
-        stack: "JavaScript,\t Phaser, Matter.js,  Webpack, Tiled, Babbel",
+        stack: "JavaScript, Phaser, Matter.js,  Webpack, Tiled, Babbel",
         live: "https://ecstatic-rosalind-eeae5f.netlify.app/",
         repo: "https://github.com/MkrtichSargsyan/RPG-game-js",
       },
