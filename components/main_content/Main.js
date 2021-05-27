@@ -8,42 +8,56 @@ import styles from "../../styles/Main.module.css";
 import Footer from "./Footer";
 
 export default class Main extends Component {
+  state = {
+    width: this.props.width,
+    status: false,
+  };
 
-  state={
-    width: this.props.width
-  }
-
-
-  checkSize(){
+  checkSize() {
     this.setState({
-      width:this.props.width
-    })
+      width: this.props.width,
+    });
   }
 
-  componentDidUpdate(prevProps, prevState){
- 
-      if(this.props.width != prevProps.width){
-        this.checkSize()
-      }
+  changeStatus = (e) => {
+    e.preventDefault()
+    this.setState({
+      status: true,
+    });
+  };
+
+  componentDidUpdate(prevProps) {
+    if(this.state.status){
+
+      setTimeout(() => {
+        this.setState({ status: false });
+      }, 2000);
+    }
+    if (this.props.width != prevProps.width) {
+      this.checkSize();
+    }
   }
 
   render() {
-    const {width} = this.state
-    const {active} = this.props
+    const { width } = this.state;
+    const { active } = this.props;
 
-    let style = ''
+    let style = "";
 
-    if (width == 'desktop'){
-      style = active ? 'ml' : 'none'
+    if (width == "desktop") {
+      style = active ? "ml" : "none";
     }
 
     return (
       <main>
-        <div className={style=='ml' ? styles.ml : styles.none}>
+        <div className={style == "ml" ? styles.ml : styles.none}>
           <Showcase />
           <MyProjects />
           <AboutMe />
-          <Contact />
+          <Contact
+            status={this.state.status}
+            changeStatus={this.changeStatus}
+          />
           <Footer />
         </div>
       </main>
